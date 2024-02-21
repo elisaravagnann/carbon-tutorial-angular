@@ -1,6 +1,10 @@
 version: 2.1
 jobs:
+<<<<<<< HEAD
   step-two:
+=======
+  step-one:
+>>>>>>> angular-step-1
     docker:
       - image: circleci/node:12.18.2-browsers
     working_directory: ~/repo
@@ -13,4 +17,8 @@ jobs:
 workflows:
     main:
       jobs:
+<<<<<<< HEAD
         - step-two
+=======
+        - step-one
+>>>>>>> angular-step-1
